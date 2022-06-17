@@ -1,0 +1,51 @@
+{
+  "name": "dealstryker.server",
+  "version": "0.1.0",
+  "description": "dealstryker",
+  "main": "app.js",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.16.2",
+    "fs": "0.0.1-security",
+    "heroku-ssl-redirect": "0.0.4",
+    "http2": "^3.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.10",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-facebook-token": "^3.3.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-token": "^0.1.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "prettier": "^2.1.2",
+    "socket.io": "^2.2.0",
+    "spdy": "^4.0.1",
+    "uuidv4": "^4.0.0",
+    "zipcodes": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ./client && npm install && npm run build",
+    "start": "nodemon app.js",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "12.x"
+  }
+}
